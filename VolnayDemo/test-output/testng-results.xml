@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10380" started-at="2018-12-12T00:10:00Z" finished-at="2018-12-12T00:10:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10380" started-at="2018-12-12T00:10:00Z" finished-at="2018-12-12T00:10:10Z">
+      <class name="volnayPac.VolLoginVer">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:volnayPac.VolLoginVer@1b68ddbd]" name="beforeTest" is-config="true" duration-ms="6264" started-at="2018-12-12T00:10:00Z" finished-at="2018-12-12T00:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:volnayPac.VolLoginVer@1b68ddbd]" name="f" duration-ms="4074" started-at="2018-12-12T00:10:06Z" data-provider="userPassword" finished-at="2018-12-12T00:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vt.jessie@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divine123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:volnayPac.VolLoginVer@1b68ddbd]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-12-12T00:10:10Z" finished-at="2018-12-12T00:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- volnayPac.VolLoginVer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
